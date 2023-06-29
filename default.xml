@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="yoctoproject" fetch="git://git.yoctoproject.org" />
+    <remote name="github" fetch="https://github.com" />
 
     <project path="poky" name="poky" revision="dunfell" remote="yoctoproject" />
+    <project path="meta-openembedded" name="openembedded/meta-openembedded" revision="dunfell" remote="github" />
 </manifest>
