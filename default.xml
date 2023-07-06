@@ -4,5 +4,6 @@
     <remote name="github" fetch="https://github.com" />
 
     <project path="poky" name="poky" revision="dunfell" remote="yoctoproject" />
+    <project path="meta-selinux" name="meta-selinux" revision="dunfell" remote="yoctoproject" />
     <project path="meta-openembedded" name="openembedded/meta-openembedded" revision="dunfell" remote="github" />
 </manifest>
